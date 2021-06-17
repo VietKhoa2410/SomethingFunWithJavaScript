@@ -1,0 +1,2 @@
+# SomethingFunWithJavaScript
+Just some practice
