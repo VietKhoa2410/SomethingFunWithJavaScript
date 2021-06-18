@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess My Number</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid" id="game">
+        <div id="header">
+            <button id="resetBtn">Reset</button>
+            <span class="float-right">Range 1-30</Range></span>
+            <p class="text-center">Guess My Number!</p>
+        </div>
+
+        <div id="body">
+            <p class="text-center">
+                ?
+            </p>
+        </div>
+
+        <div id="footer">
+            <div id="getInput">
+                <input type="number" id="input">
+                <button id="checkBnt">Check!</button>
+            </div>
+
+            <div id="result" class="text-center">
+                <h3 id="resultText">Start guessing...</h3>
+                <p>Score: <span id="score">20</span></p>
+                <p>Highscore: <span id="highScore">0</span></p>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
